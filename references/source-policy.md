@@ -2,6 +2,18 @@
 
 Read this before every ai-mapper run.
 
+## Table of Contents
+
+- [Binding Rules](#binding-rules)
+- [Open Public Source Allowlist](#open-public-source-allowlist)
+- [Public-Web Enrichment](#public-web-enrichment)
+- [Mandatory Elsewhere Pass](#mandatory-elsewhere-pass)
+- [Elsewhere Attribution](#elsewhere-attribution)
+- [Evidence Classes](#evidence-classes)
+- [Public Source Boundary](#public-source-boundary)
+- [Banned Sources](#banned-sources)
+- [Weak Signals](#weak-signals)
+
 ## Binding Rules
 
 - Elsewhere API is mandatory for every complete run. If it is unavailable because no key is configured or quota/rate limits are exhausted, continue only as `degraded / Exa-only` with standard output paths and explicit status labels; do not call the run complete.
@@ -91,6 +103,30 @@ Elsewhere-only candidates can enter output tables only when reporting is substan
 | 无效 | Closed, unverifiable, repost-only, recruitment-only, stale, crawl-date-only, or unrelated |
 
 Rated rows need at least one openable, traceable, non-repost evidence link. Exa snippets, Exa summaries, Exa returned dates, context-mode snippets, ranking snippets, and community heat are routing aids only.
+
+## Public Source Boundary
+
+Closed platforms are out of scope for search, enrichment, evidence, and rating, except mandatory Elsewhere API through the user's configured/provided key. A project lead can survive when public sources or attributed Elsewhere API reporting are enough to verify the project/product/repo, current activity, and evidence. Responsible person/team and background are enrichment fields for project leads and required for talent rows; contact path is optional context only and never a final talent-column.
+
+When a promising candidate points to a closed source:
+
+1. Try to find equivalent public or attributed Elsewhere API evidence from product, repo, author, event, media, paper, investor pages, or Elsewhere article/entity/content endpoints.
+2. If equivalent evidence exists, use that evidence and cite the source type clearly.
+3. If no public evidence exists, drop the candidate or keep it as `暂不跟进 / 公开证据不足`.
+4. Record the limitation in `run-report.md`; do not create a follow-up queue that depends on private user session state.
+
+Tag every raw lead:
+
+| Entry type | Resolution |
+|---|---|
+| `person` | person -> project/work -> background -> contact |
+| `project` | project -> founder/author/maintainer/team -> background -> contact |
+| `repo` | repo -> owner/contributors/maintainer -> product/use case -> contact |
+| `content` | content -> mentioned person/project -> original evidence -> contact |
+| `event` | event -> participating project/team/person -> post-event activity -> contact |
+| `paper` | paper -> authors/lab/repo -> application potential -> contact |
+
+Target normalized object: `项目/产品/Repo -> 做了什么 -> 最近动作 -> 项目信号 -> 负责人/团队(可待补) -> 背景(可待补) -> 触达路径(可待补) -> 是否值得跟进`.
 
 ## Banned Sources
 

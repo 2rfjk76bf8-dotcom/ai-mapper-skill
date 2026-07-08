@@ -2,6 +2,16 @@
 
 Read this before writing any ai-mapper artifact.
 
+## Table of Contents
+
+- [Schema Stability](#schema-stability)
+- [Date Requirements](#date-requirements)
+- [Structured Artifacts](#structured-artifacts)
+- [`validated.md`](#validatedmd)
+- [`rated.md`](#ratedmd)
+- [Final Report](#final-report)
+- [Optional Judgment Cards](#optional-judgment-cards)
+
 ## Schema Stability
 
 The final output structure remains project tables plus a compact talent table. Do not add a separate academic talent table, scholar list, ranking table, community-signal table, or database table. Academic papers, citations, venues, repos, demos, and labs are evidence inside project rows and `关联人才与背景`; people enter the compact talent table only when they independently qualify.

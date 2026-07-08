@@ -2,6 +2,15 @@
 
 Use these alongside Markdown artifacts. Markdown remains the human decision surface; JSONL makes validation and repair deterministic.
 
+## Table of Contents
+
+- [Required Files In Each Workspace](#required-files-in-each-workspace)
+- [Status Records For Blocked Runs](#status-records-for-blocked-runs)
+- [`exa-candidates.jsonl`](#exa-candidatesjsonl)
+- [`candidates.jsonl`](#candidatesjsonl)
+- [`evidence.jsonl`](#evidencejsonl)
+- [Validation Rules](#validation-rules)
+
 ## Required Files In Each Workspace
 
 ```text

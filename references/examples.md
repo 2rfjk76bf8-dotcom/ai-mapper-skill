@@ -2,6 +2,23 @@
 
 Use this file to calibrate output quality. These are historical examples, not current evidence. Do not copy names, dates, funding, activity, or contact paths into a new run without fresh source inspection.
 
+## Table of Contents
+
+- [How To Use](#how-to-use)
+- [Current Final Project Table Shape](#current-final-project-table-shape)
+- [Case Responsibility By Stage](#case-responsibility-by-stage)
+- [Raw Lead Example](#raw-lead-example)
+- [01 Good A Project Card: Early Coding-Agent Infrastructure](#01-good-a-project-card-early-coding-agent-infrastructure)
+- [02 Good A Talent Card: Builder Behind The Project](#02-good-a-talent-card-builder-behind-the-project)
+- [03 Good A Project Card: Enterprise Workflow / DataAgent](#03-good-a-project-card-enterprise-workflow-dataagent)
+- [04 B Row That Should Not Be A Yet](#04-b-row-that-should-not-be-a-yet)
+- [05 C / Background Sample](#05-c-background-sample)
+- [06 Output Quality Audit Case](#06-output-quality-audit-case)
+- [Rating And Downgrade Examples](#rating-and-downgrade-examples)
+- [Common Bad Outputs](#common-bad-outputs)
+- [Thin Row Red Flags](#thin-row-red-flags)
+- [Early Stop Examples](#early-stop-examples)
+
 ## How To Use
 
 - Read this when raw rows are thin, A/B ratings feel ambiguous, or the final report is becoming a radar list instead of high-density judgment tables.

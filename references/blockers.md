@@ -2,6 +2,14 @@
 
 Use these when a normal ai-mapper run cannot meet the contract.
 
+## Table of Contents
+
+- [Under-Minimum Gates Are Not A Blocker](#under-minimum-gates-are-not-a-blocker)
+- [Elsewhere API Missing Or Unavailable](#elsewhere-api-missing-or-unavailable)
+- [Exa Unavailable](#exa-unavailable)
+- [Context-Mode Unavailable](#context-mode-unavailable)
+- [Public Evidence Gap](#public-evidence-gap)
+
 ## Under-Minimum Gates Are Not A Blocker
 
 Trigger: `guard-final` reports selected-mode quantity or coverage gates below minimum, such as too few Exa query/source paths, candidate URLs, opened/fetched pages, source families, C-funding candidates, or raw P0/P1 leads.

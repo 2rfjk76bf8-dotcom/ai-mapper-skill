@@ -2,6 +2,17 @@
 
 Read this before writing `validated.md`, `rated.md`, or the final report.
 
+## Table of Contents
+
+- [Project-First Rule](#project-first-rule)
+- [Recency And Date Gate](#recency-and-date-gate)
+- [Academic Project Integration](#academic-project-integration)
+- [Ratings](#ratings)
+- [Gap Enum](#gap-enum)
+- [Talent Rows](#talent-rows)
+- [Downgrade Rules](#downgrade-rules)
+- [Output Quality Pass](#output-quality-pass)
+
 ## Project-First Rule
 
 A strong project can be A even when person, background, or contact is unresolved. These are enrichment fields, not project-level hard gates.
